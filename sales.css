@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Luckiest+Guy&family=Roboto+Mono:wght@200&display=swap');
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  color: goldenrod;
+  background: rgb(34,193,195);
+  background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(249,192,71,1) 100%);
+}
+
+#credit-card-fields, #paypal-fields{
+    display: none;
+} 
+
+header {
+  background-color: goldenrod;
+  color: #f9f9f9;
+  text-align: center;
+  padding: 20px;
+  font-size: 2em;
+}
+
+img {
+  max-width: 200px;
+  height: auto;
+  float: left;
+  padding: 20px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1em;
+}
+
+form {
+  display: grid;
+  grid-gap: 10px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+  }
+  
+  form div input,
+  form div label {
+    margin-right: 10px;
+  }
+  
+
+form label {
+  font-weight: 600;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="number"],
+form input[type="date"],
+form select {
+  padding: 10px;
+  font-size: 1em;
+}
+
+form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #f9f9f9;
+  border: none;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #666;
+}
+
+#credit-card-fields div{
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Styles for the modal */
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.modal img {
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto 20px;
+}
+
+.modal button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #f9f9f9;
+  border: none;
+  cursor: pointer;
+}
+
+.modal button:hover {
+  background-color: #666;
+}

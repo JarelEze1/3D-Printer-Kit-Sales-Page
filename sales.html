@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="sales.css">
+  <title>Check Out</title>
+</head>
+<body>
+  <header>
+    <h1>3D Printer Kit</h1>
+  </header>
+  <section id="product">
+    <h2>Product Details</h2>
+    <img src="3dprinter.jpeg" alt="3D Printer Kit" />
+    <p>Our 3D Printer Kit includes everything you need to assemble your own 3D printer at home. Comes with a detailed guide and online support. Unleash your creativity and dive into the world of 3D printing!</p>
+    <p>Price: $299.99</p>
+  </section>
+
+  <form id="orderForm">
+    <h2>Order Form</h2>
+    
+    <label for="quantity">Quantity Ordered:</label>
+    <select id="quantity" name="quantity">
+      <option value="1" selected>1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+    
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Your Name">
+    
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required placeholder="Your Email Address">
+    <output id="email-error"></output>
+
+    <label for="phone">Phone Number:</label> 
+    <input type="tel" id="phone" name="phone" required placeholder="Your Phone Number"> 
+
+    <label for="shipping">Shipping Method:</label> 
+    <div>
+      <input type="radio" id="overnight" name="shipping" value="overnight" checked>
+      <label for="overnight">Overnight ($19.99)</label>
+    </div>
+      
+    <div>
+      <input type="radio" id="2day" name="shipping" value="2day">
+      <label for="2day">2 Day ($9.99)</label>
+    </div>
+      
+    <div>
+      <input type="radio" id="budget" name="shipping" value="budget">
+      <label for="budget">Budget (Free)</label>
+    </div>
+
+    <h3>Billing Address:</h3>
+    <label for="baddress">Street Address:</label> 
+    <input type="text" id="baddress" name="baddress" required placeholder="Billing Street Address"> 
+
+    <label for="bcity">City:</label> 
+    <input type="text" id="bcity" name="bcity" required placeholder="Billing City"> 
+
+    <label for="bstate">State:</label>
+    <select id="bstate" name="bstate" required>
+      <option value="" disabled selected>Please select</option>
+        <option value="AB">Abia</option>
+        <option value="AD">Adamawa</option>
+        <option value="AK">Akwa Ibom</option>
+        <option value="AN">Anambra</option>
+        <option value="BA">Bauchi</option>
+        <option value="BY">Bayelsa</option>
+        <option value="BE">Benue</option>
+        <option value="BR">Borno</option>
+        <option value="CR">Cross</option>
+        <option value="DE">Delta</option>
+        <option value="EB">Ebonyi</option>
+        <option value="ED">Edo</option>
+        <option value="EK">Ekiti</option>
+        <option value="EN">Enugu</option>
+        <option value="GO">Gombe</option>
+        <option value="IM">Imo</option>
+        <option value="JI">Jigawa</option>
+        <option value="KD">Kaduna</option>
+        <option value="KA">Kano</option>
+        <option value="KT">Katsina</option>
+        <option value="KE">Kebbi</option>
+        <option value="KO">Kogi</option>
+        <option value="KW">Kwara</option>
+        <option value="LA">Lagos</option>
+        <option value="NA">Nasarawa</option>
+        <option value="NI">Niger</option>
+        <option value="OG">Ogun</option>
+        <option value="ON">Ondo</option>
+        <option value="OS">Osun</option>
+        <option value="OY">Oyo</option>
+        <option value="PL">Plateau</option>
+        <option value="RI">Rivers</option>
+        <option value="SO">Sokoto</option>
+        <option value="TA">Taraba</option>
+        <option value="YB">Yobe</option>
+        <option value="ZA"
+    </select>
+    <label for="bzip">Zip Code:</label> 
+    <input type="text" id="bzip" name="bzip" required placeholder="Billing Zip Code"> 
+
+    <h3>Shipping Address (if different):</h3>
+
+    <div>
+      <label for="same-address">Same as Billing Address</label> 
+      <input type="checkbox" id="same-address">
+    </div>
+
+    <label for="saddress">Street Address:</label> 
+    <input type="text" id="saddress" name="saddress" placeholder="Shipping Street Address"> 
+
+    <label for="scity">City:</label> 
+    <input type="text" id="scity" name="scity" placeholder="Shipping City"> 
+
+    <label for="sstate">State:</label>
+    <select id="sstate" name="sstate">
+      <option value="" disabled selected>Please select</option>
+        <option value="AB">Abia</option>
+        <option value="AD">Adamawa</option>
+        <option value="AK">Akwa Ibom</option>
+        <option value="AN">Anambra</option>
+        <option value="BA">Bauchi</option>
+        <option value="BY">Bayelsa</option>
+        <option value="BE">Benue</option>
+        <option value="BR">Borno</option>
+        <option value="CR">Cross</option>
+        <option value="DE">Delta</option>
+        <option value="EB">Ebonyi</option>
+        <option value="ED">Edo</option>
+        <option value="EK">Ekiti</option>
+        <option value="EN">Enugu</option>
+        <option value="GO">Gombe</option>
+        <option value="IM">Imo</option>
+        <option value="JI">Jigawa</option>
+        <option value="KD">Kaduna</option>
+        <option value="KA">Kano</option>
+        <option value="KT">Katsina</option>
+        <option value="KE">Kebbi</option>
+        <option value="KO">Kogi</option>
+        <option value="KW">Kwara</option>
+        <option value="LA">Lagos</option>
+        <option value="NA">Nasarawa</option>
+        <option value="NI">Niger</option>
+        <option value="OG">Ogun</option>
+        <option value="ON">Ondo</option>
+        <option value="OS">Osun</option>
+        <option value="OY">Oyo</option>
+        <option value="PL">Plateau</option>
+        <option value="RI">Rivers</option>
+        <option value="SO">Sokoto</option>
+        <option value="TA">Taraba</option>
+        <option value="YB">Yobe</option>
+        <option value="ZA">Zamfara</option>
+    </select>
+
+    <label for="szip">Zip Code:</label> 
+    <input type="text" id="szip" name="szip" placeholder="Shipping Zip Code"> 
+
+    <h3>Method of Payment:</h3>
+    <div>
+      <input type="radio" id="paypal" name="payment" value="paypal" required>
+      <label for="paypal">PayPal</label> 
+    </div>
+
+    <div>
+      <input type="radio" id="credit-card" name="payment" value="creditcard" required placeholder="Pay with Creditcard">
+      <label for="creditcard">Credit Card</label> 
+    </div>
+
+    <div id="paypal-fields">
+      <div>
+        <label for="paypalemail">PayPal Email Address:</label>
+        <input type="email" id="paypalemail" name="paypalemail" placeholder="Your PayPal Email Address">
+      </div>
+    </div>
+
+    <div id="credit-card-fields">
+      <div>
+        <label for="cardname">Name on Card:</label> 
+        <input type="text" id="cardname" name="cardname" placeholder="Name on Credit Card"> 
+      </div>
+
+      <div>
+        <label for="cardnumber">Card Number:</label> 
+        <input type="text" id="cardnumber" name="cardnumber" placeholder="Credit Card Number"> 
+      </div>
+
+      <div>
+        <label for="expirationdate">Expiration Date:</label> 
+        <input type="date" id="expirationdate" name="expirationdate" placeholder="Expiration Date"> 
+      </div>
+
+      <div>
+        <label for="securitycode">4-Digit Security Code:</label> 
+        <input type="text" id="securitycode" name="securitycode" placeholder="4-Digit Security Code"> 
+      </div>
+    </div>
+
+    <input type="submit" value="Place Order">
+  </form>
+  <script src="sales.js"></script>
+</body>
+</html>
