@@ -1,4 +1,8 @@
 3D Printer Kit Sales Website
+<img width="501" alt="3d mobile screenshot" src="https://github.com/JarelEze1/3D-Printer-Kit-Sales-Website/assets/112780966/66070405-c936-43eb-b40a-8a3f33ce1ac8">
+<img width="818" alt="3d tab screenshot" src="https://github.com/JarelEze1/3D-Printer-Kit-Sales-Website/assets/112780966/23d4fb54-d2ab-41bd-ac3f-525315e85b2e">
+<img width="1396" alt="3d screenshot full screen" src="https://github.com/JarelEze1/3D-Printer-Kit-Sales-Website/assets/112780966/f4afab8b-7d4c-4b36-a886-fde15686871e">
+
 3D Printer Kit
 
 Welcome to the 3D Printer Kit Sales Website, a platform that provides a seamless shopping experience for high-quality 3D printer kits. Dive into the world of 3D printing and unleash your creativity!
@@ -21,6 +25,11 @@ Order Form: Seamlessly place orders, select quantities, and choose shipping meth
 Payment Options: Pay securely using PayPal or credit card.
 
 Responsive Design: Enjoy a consistent experience on various devices.
+
+
+https://github.com/JarelEze1/3D-Printer-Kit-Sales-Website/assets/112780966/6631ab34-c14d-4d55-bb73-8db8c52d30d0
+
+
 
 Getting Started
 To get started with this 3D Printer Kit Sales Website, simply follow these steps:
