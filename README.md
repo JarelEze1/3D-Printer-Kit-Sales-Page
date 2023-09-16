@@ -5,7 +5,7 @@
 
 3D Printer Kit
 
-Welcome to the 3D Printer Kit Sales Website, a platform that provides a seamless shopping experience for high-quality 3D printer kits. Dive into the world of 3D printing and unleash your creativity!
+Welcome to the 3D Printer Kit Sales Website page, a platform that provides a seamless shopping experience for high-quality 3D printer kits. Dive into the world of 3D printing and unleash your creativity!
 
 Table of Contents
 Features
